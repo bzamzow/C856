@@ -7,6 +7,22 @@
   background-color: #3d8bfd;
 }
 
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 250px !important;
+  }
+  .offcanvas-start-lg {
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+  }
+  .hotels {
+    max-height: 30%;
+  }
+  .images {
+    max-height: 30%;
+  }
+}
 .bg {
   /* The image used */
   background-image: url("../images/Taniti.jpg");
