@@ -91,6 +91,16 @@ h1, .h1 {
   margin-right: 5%;
 }
 
+.h2 {
+  margin-top: 25rem;
+}
+
+.accordion {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 body, html {
   height: 100%;
 }
