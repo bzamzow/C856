@@ -7,22 +7,6 @@
   background-color: #3d8bfd;
 }
 
-@media (max-width: 992px) {
-  .offcanvas {
-    width: 250px !important;
-  }
-  .offcanvas-start-lg {
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-  }
-  .hotels {
-    max-height: 30%;
-  }
-  .images {
-    max-height: 30%;
-  }
-}
 .bg {
   /* The image used */
   background-image: url("../images/Taniti.jpg");
@@ -40,10 +24,12 @@
 
 .hotels {
   height: 100%;
+  max-height: 100%;
 }
 
 .images {
   height: 100%;
+  max-height: 100%;
 }
 
 .carousel {
@@ -61,7 +47,6 @@
 
 .carousel-caption {
   position: absolute;
-  top: 40%;
   bottom: 40%;
   font-size: x-large;
   background-color: rgb(33, 37, 41);
@@ -70,7 +55,7 @@
   border-radius: 25px;
 }
 
-h1, .h1 {
+header h1, header .h1 {
   padding-top: 20%;
   font-size: 32em;
   color: white;
@@ -107,10 +92,6 @@ h1, .h1 {
   margin-right: 5%;
 }
 
-.h2 {
-  margin-top: 25rem;
-}
-
 .accordion {
   margin-top: 10rem;
   margin-left: 10rem;
@@ -121,6 +102,30 @@ body, html {
   height: 100%;
 }
 
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 250px !important;
+  }
+  .offcanvas-start-lg {
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+  }
+  .hotels {
+    height: 30% !important;
+    object-fit: cover !important;
+  }
+  .images {
+    height: 30%;
+    object-fit: cover;
+  }
+  .hotels img {
+    object-fit: cover;
+  }
+  .images img {
+    object-fit: cover;
+  }
+}
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
