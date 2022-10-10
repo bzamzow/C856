@@ -12,324 +12,324 @@
 </head>
 <body>
 
-<nav class="mobile-offcanvas navbar navbar-expand-sm fixed-top bg-dark opacity-75 d-flex justify-content-center" id="nav">
-    <div class="container link-light  d-flex justify-content-center">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasSm"  aria-controls="offcanvasSm" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-start-lg text-bg-dark" tabindex="-1" id="navbarOffcanvasSm" aria-labelledby="navbarOffcanvasSmLabel">
-            <ul class="navbar-nav nav-pills justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link link-light active" aria-current="page"  href="#gotoaccommodations">Accommodations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light " href="#gototravel">Travel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light " href="#gotophotos">Photos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light"  href="#thingstodo">Things to Do</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light " href="#gotohistory">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light " href="#gotoabout">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light " href="#gotofaqs">FAQs</a>
-                </li>
+    <nav class="mobile-offcanvas navbar navbar-expand-sm fixed-top bg-dark opacity-75 d-flex justify-content-center" id="nav">
+        <div class="container link-light  d-flex justify-content-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasSm"  aria-controls="offcanvasSm" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start-lg text-bg-dark" tabindex="-1" id="navbarOffcanvasSm" aria-labelledby="navbarOffcanvasSmLabel">
+                <ul class="navbar-nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#gotoaccommodations">Accommodations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light " href="#gototravel">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light " href="#gotophotos">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light"  href="#thingstodo">Things to Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light " href="#gotohistory">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light " href="#gotoabout">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light " href="#gotofaqs">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header bg">
+        <h1 class="d-flex justify-content-center">Welcome to Taniti</h1>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#nav" data-bs-smooth-scroll="true" class="scrollspy" data-bs-offset="100%">
+        <div class="hotels vh-100" id="gotoaccommodations">
+            <div id="accommodations" class="carousel slide carousel-fade" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#accommodations" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#accommodations" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#accommodations" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner vh-100">
+                    <div class="carousel-item active vh-100">
+                        <img src="images/hotel1.jpg" class="d-block w-100 vh-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
+                            <h5>Holton Hotel Taniti</h5>
+                            <p>The most comfortable and exquisite hotel on the island.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/hotel2.jpg" class="d-block w-100 vh-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
+                            <h5>Le Taniti</h5>
+                            <p>Gorgeous Views and sandy beaches.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/hotel3.jpg" class="d-block w-100 vh-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
+                            <h5>Hotel Salah Nuo</h5>
+                            <p>Experience Tanitian hospitality.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#accommodations" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#accommodations" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="travel container d-block min-vh-100" >
+            <div class="cards d-flex justify-content-center align-items-center min-vh-100 w-100 row" id="gototravel">
+                <div class="card d-flex align-items-center travelcard col-sm-6" style="width: 18rem;">
+                    <img src="images/cruise.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cruise Ship</h5>
+                        <p class="card-text">Some people prefer to visit the island as a part of a cruise. While the travel time is longer, it is cheaper and more relaxing.</p>
+                        <a href="#" class="btn btn-primary">Book a Cruise</a>
+                    </div>
+                </div>
+                <div class="card d-flex align-items-center travelcard col-sm-6" style="width: 18rem;">
+                    <img src="images/airport.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Airplane</h5>
+                        <p class="card-text">Most people travel to the island via airplane. Air travel is the fastest way to get to the island, but is not the cheapest.</p>
+                        <a href="#" class="btn btn-primary">Book a Flight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="images vh-100" id="gotophotos">
+            <div id="photos" class="carousel slide carousel-fade" data-bs-ride="false">
+                <div class="carousel-indicators" >
+                    <button type="button" data-bs-target="#photos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#photos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#photos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#photos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#photos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner vh-100">
+                    <div class="carousel-item active vh-100">
+                        <img src="images/taniti1.jpg" class="d-block w-100 vh-100" alt="...">
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/taniti2.jpg" class="d-block w-100 vh-100" alt="...">
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/taniti3.jpg" class="d-block w-100 vh-100" alt="...">
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/taniti4.jpg" class="d-block w-100 vh-100" alt="...">
+                    </div>
+                    <div class="carousel-item vh-100">
+                        <img src="images/taniti5.jpg" class="d-block w-100 vh-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#photos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#photos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div  class="todo container d-block min-vh-100" id="thingstodo">
+            <div class="cards row d-flex justify-content-center align-items-center h-100 w-100">
+                <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
+                    <img src="images/zip.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Entertainment</h5>
+                        <p class="card-text">Most people visit Taniti to enjoy the beaches, explore or zip-line in the rainforest, and to visit the volcano. </p>
+                        <a href="#" class="btn btn-primary">Book Entertainment</a>
+                    </div>
+                </div>
+                <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
+                    <img src="images/snorkle.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Entertainment</h5>
+                        <p class="card-text">Some like to visit a local history museum, going on chartered fishing tours, or snorkel</p>
+                        <a href="#" class="btn btn-primary">Book Entertainment</a>
+                    </div>
+                </div>
+                <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
+                    <img src="images/heli.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Entertainment</h5>
+                        <p class="card-text">There are also activitines like dancing at a new club, movies, helicopter rides, art galleries, and bowling. </p>
+                        <a href="#" class="btn btn-primary">Book Entertainment</a>
+                    </div>
+                </div>
+                <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
+                    <img src="images/beach.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sightseeing</h5>
+                        <p class="card-text">Most tourists spend most of their time in Taniti City, taking in native architecture and white, sandy beaches that encircle Yellow Leaf Bay. </p>
+                        <a href="#" class="btn btn-primary">Book an Adventure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="history d-block min-vh-100" id="gotohistory">
+            <div class="container">
+                <h1 class="h1">History</h1>
+                <p><strong>Early History</strong><br />
+                    Taniti, formed from volcanic activity, was initially settled by a small group of Indo-Pacific people looking for a new home.
+                </p>
+                <p><strong>Colonizers</strong><br />
+                    Taniti, and it's inhabitants, was discovered around 1570 by French explorers and were quickly colonized.
+                    In 1720, the British went to the small island nation and attempted to colonize the area as well. The French and Tanitians pushed the British back.
+                    By 1940, the island was considered a strategic location and was further colonized by the United States.
+                </p>
+                <p><strong>Wars</strong><br />
+                    Though war was never declared by the British, French, or Tanitians, there were several bloody battles from 1720 to 1723 to repel the British colonization.
+                    In the 1940s, with war looming, the Tanitians accepted the Americans on the island and allowed the United States to build a base with the promise of protection.
+                    There has been no other conflict in Taniti's history
+                </p>
+            </div>
+        </div>
+        <div  class="history d-block min-vh-100" id="gotoabout">
+            <div class="container">
+                <h1 class="h1">About Us</h1>
+                <p><strong>Taniti is a proud island nation</strong><br />
+                    Taniti is home to about 20,000 people that love the island, the culture and the history.
+                </p>
+                <p><strong>American Involvement</strong><br />
+                    Although we use the American currency and most young people speak English, there is no official link between the United States and Taniti. We share a strong friendship and welcome guests from America, but we are not a territory or colony of the United States.
+                </p>
+                <p><strong>Tourism</strong><br />
+                    After being thrust in to the global scene during World War II, we realized we needed to expand our presence on the world stage. We have since began participating in the tourism industry and have become a popular destination. Though our elders are not always happy, we have been able to share our culture with many throughout the world.
+                </p>
+                <p><strong>Food</strong><br />
+                    While the natives mostly eat local fish and rice, there are several other restaurants available that serve American food and Pan-Asian cuisine.
+                    <br />
+                    <br />
+                    Taniti also has two supermarkets, two smaller grocery stores and one 24-hour convenience store.
+                </p>
+                <p><strong>Ground Transportation</strong><br />
+                    Due to the increase in tourism, there are several options for getting around the island. There are taxis, shuttles, and rental cars available to all tourists.
+                </p>
+                <p><strong>Lodging</strong><br />
+                    Luckily, you don't have to be wealthy to stay on Taniti. Prices for lodging vary from inexpensive hostels, to large four-star resorts. We have several small, family owned, hotels, resorts and bed and breakfasts. Lodging is strictly regulated by the Tanitian government and can be trusted.
+                </p>
+            </div>
+        </div>
+        <div  class="faqs d-inline-block justify-content-center align-items-center min-vh-100 w-100" id="gotofaqs">
+            <h1 class="d-flex justify-content-center align-items-center align-content-center faqh1">Frequently Asked Questions:</h1>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What type of power plugs are on the island?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>120V</strong> Taniti uses the same plugs as the United States. Visitors from other countries may need adapters to power their devices.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Is alcohol served on the island?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Yes, but not between midnight and 9 A.M.</strong> There is also a minimum age of 18 years old to drink alcohol.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Do people speak English?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Most younger Tanitians do.</strong> English is less common in the rural portions of the island, especially by the older residents.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Is there medical support on the island?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Yes!</strong> There is on hospital and several clinics. The hospital has many multilingual employees.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Is crime a problem?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>There is very little crime</strong> Violent crime is very rare, but there are increased reports of pickpocketing during tourist season.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Will holidays disrupt the experience?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Yes!</strong> Tanitians have a large number of holidays and many restaurants and attractions will be closed on these days. Plan accordingly.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            What currency is used?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>USD</strong> The U.S. Dollar is the official currency but many businesses will also accept Euros and Yen. Exchanges can be made at several banks and most business accept major credit cards.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav nav-pills justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#gotoaccommodations" class="nav-link px-2 text-muted">Accommodations</a></li>
+                <li class="nav-item"><a href="#gototravel" class="nav-link px-2 text-muted">Travel</a></li>
+                <li class="nav-item"><a href="#gotophotos" class="nav-link px-2 text-muted">Photos</a></li>
+                <li class="nav-item"><a href="#thingstodo" class="nav-link px-2 text-muted">Things to Do</a></li>
+                <li class="nav-item"><a href="#gotohistory" class="nav-link px-2 text-muted">History</a></li>
+                <li class="nav-item"><a href="#gotoabout" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#gotofaqs" class="nav-link px-2 text-muted">FAQs</a></li>
             </ul>
-        </div>
+            <p class="text-center text-muted">© 2022 Zamzow, Inc</p>
+        </footer>
     </div>
-</nav>
-
-<div class="header bg">
-    <h1 class="d-flex justify-content-center">Welcome to Taniti</h1>
-</div>
-<div data-bs-spy="scroll" data-bs-target="#nav" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-<div class="hotels vh-100" id="gotoaccommodations">
-    <div id="accommodations" class="carousel slide carousel-fade" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#accommodations" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#accommodations" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#accommodations" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner vh-100">
-            <div class="carousel-item active vh-100">
-                <img src="images/hotel1.jpg" class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
-                    <h5>Holton Hotel Taniti</h5>
-                    <p>The most comfortable and exquisite hotel on the island.</p>
-                </div>
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/hotel2.jpg" class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
-                    <h5>Le Taniti</h5>
-                    <p>Gorgeous Views and sandy beaches.</p>
-                </div>
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/hotel3.jpg" class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption d-none d-md-block opacity-50 mb-4">
-                    <h5>Hotel Salah Nuo</h5>
-                    <p>Experience Tanitian hospitality.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#accommodations" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#accommodations" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-<div class="travel container d-block min-vh-100" >
-    <div class="cards d-flex justify-content-center align-items-center min-vh-100 w-100 row" id="gototravel">
-        <div class="card d-flex align-items-center travelcard col-sm-6" style="width: 18rem;">
-            <img src="images/cruise.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cruise Ship</h5>
-                <p class="card-text">Some people prefer to visit the island as a part of a cruise. While the travel time is longer, it is cheaper and more relaxing.</p>
-                <a href="#" class="btn btn-primary">Book a Cruise</a>
-            </div>
-        </div>
-        <div class="card d-flex align-items-center travelcard col-sm-6" style="width: 18rem;">
-            <img src="images/airport.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Airplane</h5>
-                <p class="card-text">Most people travel to the island via airplane. Air travel is the fastest way to get to the island, but is not the cheapest.</p>
-                <a href="#" class="btn btn-primary">Book a Flight</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="images vh-100" id="gotophotos">
-    <div id="photos" class="carousel slide carousel-fade" data-bs-ride="false">
-        <div class="carousel-indicators" >
-            <button type="button" data-bs-target="#photos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#photos" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#photos" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#photos" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#photos" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner vh-100">
-            <div class="carousel-item active vh-100">
-                <img src="images/taniti1.jpg" class="d-block w-100 vh-100" alt="...">
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/taniti2.jpg" class="d-block w-100 vh-100" alt="...">
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/taniti3.jpg" class="d-block w-100 vh-100" alt="...">
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/taniti4.jpg" class="d-block w-100 vh-100" alt="...">
-            </div>
-            <div class="carousel-item vh-100">
-                <img src="images/taniti5.jpg" class="d-block w-100 vh-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#photos" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#photos" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-<div  class="todo container d-block min-vh-100" id="thingstodo">
-    <div class="cards row d-flex justify-content-center align-items-center h-100 w-100">
-        <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
-            <img src="images/zip.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Entertainment</h5>
-                <p class="card-text">Most people visit Taniti to enjoy the beaches, explore or zip-line in the rainforest, and to visit the volcano. </p>
-                <a href="#" class="btn btn-primary">Book Entertainment</a>
-            </div>
-        </div>
-        <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
-            <img src="images/snorkle.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Entertainment</h5>
-                <p class="card-text">Some like to visit a local history museum, going on chartered fishing tours, or snorkel</p>
-                <a href="#" class="btn btn-primary">Book Entertainment</a>
-            </div>
-        </div>
-        <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
-            <img src="images/heli.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Entertainment</h5>
-                <p class="card-text">There are also activitines like dancing at a new club, movies, helicopter rides, art galleries, and bowling. </p>
-                <a href="#" class="btn btn-primary">Book Entertainment</a>
-            </div>
-        </div>
-        <div class="card d-flex align-items-center todocard col-sm-6" style="width: 25rem;">
-            <img src="images/beach.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Sightseeing</h5>
-                <p class="card-text">Most tourists spend most of their time in Taniti City, taking in native architecture and white, sandy beaches that encircle Yellow Leaf Bay. </p>
-                <a href="#" class="btn btn-primary">Book an Adventure</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div  class="history d-block min-vh-100" id="gotohistory">
-    <div class="container">
-        <h1 class="h1">History</h1>
-        <p><strong>Early History</strong><br />
-            Taniti, formed from volcanic activity, was initially settled by a small group of Indo-Pacific people looking for a new home.
-        </p>
-        <p><strong>Colonizers</strong><br />
-            Taniti, and it's inhabitants, was discovered around 1570 by French explorers and were quickly colonized.
-            In 1720, the British went to the small island nation and attempted to colonize the area as well. The French and Tanitians pushed the British back.
-            By 1940, the island was considered a strategic location and was further colonized by the United States.
-        </p>
-        <p><strong>Wars</strong><br />
-            Though war was never declared by the British, French, or Tanitians, there were several bloody battles from 1720 to 1723 to repel the British colonization.
-            In the 1940s, with war looming, the Tanitians accepted the Americans on the island and allowed the United States to build a base with the promise of protection.
-            There has been no other conflict in Taniti's history
-        </p>
-    </div>
-</div>
-<div  class="history d-block min-vh-100" id="gotoabout">
-    <div class="container">
-        <h1 class="h1">About Us</h1>
-        <p><strong>Taniti is a proud island nation</strong><br />
-            Taniti is home to about 20,000 people that love the island, the culture and the history.
-        </p>
-        <p><strong>American Involvement</strong><br />
-            Although we use the American currency and most young people speak English, there is no official link between the United States and Taniti. We share a strong friendship and welcome guests from America, but we are not a territory or colony of the United States.
-        </p>
-        <p><strong>Tourism</strong><br />
-            After being thrust in to the global scene during World War II, we realized we needed to expand our presence on the world stage. We have since began participating in the tourism industry and have become a popular destination. Though our elders are not always happy, we have been able to share our culture with many throughout the world.
-        </p>
-        <p><strong>Food</strong><br />
-            While the natives mostly eat local fish and rice, there are several other restaurants available that serve American food and Pan-Asian cuisine.
-            <br />
-            <br />
-            Taniti also has two supermarkets, two smaller grocery stores and one 24-hour convenience store.
-        </p>
-        <p><strong>Ground Transportation</strong><br />
-            Due to the increase in tourism, there are several options for getting around the island. There are taxis, shuttles, and rental cars available to all tourists.
-        </p>
-        <p><strong>Lodging</strong><br />
-            Luckily, you don't have to be wealthy to stay on Taniti. Prices for lodging vary from inexpensive hostels, to large four-star resorts. We have several small, family owned, hotels, resorts and bed and breakfasts. Lodging is strictly regulated by the Tanitian government and can be trusted.
-        </p>
-    </div>
-</div>
-<div  class="faqs d-inline-block justify-content-center align-items-center min-vh-100 w-100" id="gotofaqs">
-    <h1 class="d-flex justify-content-center align-items-center align-content-center faqh1">Frequently Asked Questions:</h1>
-
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    What type of power plugs are on the island?
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>120V</strong> Taniti uses the same plugs as the United States. Visitors from other countries may need adapters to power their devices.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Is alcohol served on the island?
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes, but not between midnight and 9 A.M.</strong> There is also a minimum age of 18 years old to drink alcohol.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Do people speak English?
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Most younger Tanitians do.</strong> English is less common in the rural portions of the island, especially by the older residents.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Is there medical support on the island?
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes!</strong> There is on hospital and several clinics. The hospital has many multilingual employees.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Is crime a problem?
-                </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>There is very little crime</strong> Violent crime is very rare, but there are increased reports of pickpocketing during tourist season.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Will holidays disrupt the experience?
-                </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes!</strong> Tanitians have a large number of holidays and many restaurants and attractions will be closed on these days. Plan accordingly.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                    What currency is used?
-                </button>
-            </h2>
-            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>USD</strong> The U.S. Dollar is the official currency but many businesses will also accept Euros and Yen. Exchanges can be made at several banks and most business accept major credit cards.
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<div class="container">
-    <footer class="py-3 my-4">
-        <ul class="nav nav-pills justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#gotoaccommodations" class="nav-link px-2 text-muted">Accommodations</a></li>
-            <li class="nav-item"><a href="#gototravel" class="nav-link px-2 text-muted">Travel</a></li>
-            <li class="nav-item"><a href="#gotophotos" class="nav-link px-2 text-muted">Photos</a></li>
-            <li class="nav-item"><a href="#thingstodo" class="nav-link px-2 text-muted">Things to Do</a></li>
-            <li class="nav-item"><a href="#gotohistory" class="nav-link px-2 text-muted">History</a></li>
-            <li class="nav-item"><a href="#gotoabout" class="nav-link px-2 text-muted">About</a></li>
-            <li class="nav-item"><a href="#gotofaqs" class="nav-link px-2 text-muted">FAQs</a></li>
-        </ul>
-        <p class="text-center text-muted">© 2022 Zamzow, Inc</p>
-    </footer>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 <script>
