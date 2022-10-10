@@ -55,9 +55,9 @@
   border-radius: 25px;
 }
 
-header h1, header .h1 {
+.header h1, .header .h1 {
   padding-top: 20%;
-  font-size: 32em;
+  font-size: 8em;
   color: white;
   font-family: "Lucida Calligraphy";
   text-shadow: -1px 1px 0 rgb(33, 37, 41), 1px 1px 0 rgb(33, 37, 41), 1px -1px 0 rgb(33, 37, 41), -1px -1px 0 rgb(33, 37, 41);
@@ -84,6 +84,7 @@ header h1, header .h1 {
 
 .cards {
   height: 100%;
+  padding-top: 5%;
 }
 
 .card {
@@ -100,6 +101,14 @@ header h1, header .h1 {
 
 body, html {
   height: 100%;
+}
+
+.faqh1 {
+  margin-top: 15rem;
+}
+
+.history h1, .history .h1 {
+  padding-top: 15rem;
 }
 
 @media (max-width: 992px) {
@@ -124,6 +133,13 @@ body, html {
   }
   .images img {
     object-fit: cover;
+  }
+  .header h1, .header .h1 {
+    padding-top: 50%;
+    font-size: 3em;
+    color: white;
+    font-family: "Lucida Calligraphy";
+    text-shadow: -1px 1px 0 rgb(33, 37, 41), 1px 1px 0 rgb(33, 37, 41), 1px -1px 0 rgb(33, 37, 41), -1px -1px 0 rgb(33, 37, 41);
   }
 }
 /*!
