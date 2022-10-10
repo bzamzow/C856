@@ -3,10 +3,6 @@
   background-color: #3d8bfd;
 }
 
-.active {
-  background-color: #3d8bfd;
-}
-
 .bg {
   /* The image used */
   background-image: url("../images/Taniti.jpg");
@@ -10805,6 +10801,10 @@ textarea.form-control-lg {
   --bs-link-hover-color: #1a1e21;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #3d8bfd;
 }
 
 /*# sourceMappingURL=main.css.map */
